@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/BeautifulMath/WSI_CIN/blob/main/Image/Figure01.png?raw=true)
 
-Folder Structures
+**Folder Structures**
 ```bash
 ├── tile
 │   ├── TCGA-3L-AA1B-01Z-00-DX2
