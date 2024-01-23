@@ -30,6 +30,8 @@ Folder Structures
 └── MLP
 ``` 
 
+(WORK IN PROGRESS)
+
 1. Download WSIs: <https://portal.gdc.cancer.gov/repository>
 2. Download tumor annotations: <https://zenodo.org/records/5320076>
 3. Get tiles from tumor regions: QuPath
