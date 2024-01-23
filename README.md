@@ -7,12 +7,12 @@ Folder Structures
 ├── tile
 │   ├── TCGA-3L-AA1B-01Z-00-DX2
 │   ├── TCGA-4N-A93T-01Z-00-DX1
-...
+│   ...
 │   └── TCGA-WS-AB45-01Z-00-DX1
 ├── nucleus
 │   ├── TCGA-A6-A56B-01Z-00-DX1
 │   ├── TCGA-4N-A93T-01Z-00-DX1
-...
+│   ...
 │   └── TCGA-WS-AB45-01Z-00-DX1
 ├── features
 │   ├── tile
@@ -38,3 +38,5 @@ Folder Structures
 4. Extract tumor cell nuclei: QuPath StarDist extension
 5. Generate 100x100-pixel tumor nucleus images
 6. Extract features: extract_deep_features.py, extract_morphologic_features.py
+7. Slide-level feature aggregation: feature_aggregation.py
+8. Get AS(Aneuploidy Score), WGD(Whole Genome Doubling) labels: get_label.py
