@@ -1,5 +1,7 @@
 # Deep Learning-based Histologic Predictions of Chromosomal Instability in Colorectal Cancer 
 
+![alt text](https://github.com/BeautifulMath/WSI_CIN/blob/main/Image/Figure1.tiff?raw=true)
+
 Folder Structures
 ```bash
 ├── tile
