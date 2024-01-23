@@ -16,16 +16,16 @@
 │   └── TCGA-WS-AB45-01Z-00-DX1
 ├── features
 │   ├── tile
-│   │   ├──resnet18
-│   │   ├──resnet18-ssl
-│   │   ├──densenet121
-│   │   └──vgg11
-│   └──nucleus
-│       ├──morphology
-│       ├──resnet18
-│       ├──resnet18-ssl
-│       ├──densenet121
-│       └──vgg11
+│   │   ├── resnet18
+│   │   ├── resnet18-ssl
+│   │   ├── densenet121
+│   │   └── vgg11
+│   └── nucleus
+│       ├── morphology
+│       ├── resnet18
+│       ├── resnet18-ssl
+│       ├── densenet121
+│       └── vgg11
 ├── slide_level_features
 └── MLP
 ``` 
