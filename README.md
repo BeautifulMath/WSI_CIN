@@ -1,6 +1,6 @@
 # Deep Learning-based Histologic Predictions of Chromosomal Instability in Colorectal Cancer 
 
-![alt text](https://github.com/BeautifulMath/WSI_CIN/blob/main/Image/Figure01.png?raw=true)
+![alt text](https://github.com/BeautifulMath/WSI_CIN/blob/main/Image/Figure1.png?raw=true)
 
 **Folder Structures**
 ```bash
@@ -33,10 +33,11 @@
 (WORK IN PROGRESS)
 
 1. Download WSIs: <https://portal.gdc.cancer.gov/repository>
-2. Download tumor annotations: <https://zenodo.org/records/5320076>
-3. Get tiles from tumor regions: QuPath
-4. Extract tumor cell nuclei: QuPath StarDist extension
-5. Generate 100x100-pixel tumor nucleus images
-6. Extract features: extract_deep_features.py, extract_morphologic_features.py
-7. Slide-level feature aggregation: feature_aggregation.py
-8. Get AS(Aneuploidy Score), WGD(Whole Genome Doubling) labels: get_label.py
+2. Download tumor annotations (.csv files): <https://zenodo.org/records/5320076>
+3. Reading csv in QuPath: csv2annotation.groovy
+4. Get tiles from tumor regions: QuPath (Analyze > Tiles & superpixels > Create tiles)
+5. Extract tumor cell nuclei: QuPath StarDist extension
+6. Generate 100x100-pixel tumor nucleus images
+7. Extract features: extract_deep_features.py, extract_morphologic_features.py
+8. Slide-level feature aggregation: feature_aggregation.py
+9. Get AS(Aneuploidy Score), WGD(Whole Genome Doubling) labels: get_label.py
