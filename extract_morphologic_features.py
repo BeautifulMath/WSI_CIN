@@ -1,3 +1,5 @@
+## Reference: 'Cell-type-specific nuclear morphology predicts genomic instability and prognosis in multiple cancer types (PathAI)'
+
 import os
 import numpy as np
 from PIL import Image
