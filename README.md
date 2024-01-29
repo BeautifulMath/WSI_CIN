@@ -28,9 +28,10 @@
 │       └── vgg11
 ├── slide_level_features
 └── MLP
+    ├── 5_fold_split
+    ├── metrics
+    └── model_weights
 ``` 
-
-(WORK IN PROGRESS)
 
 1. Download WSIs: <https://portal.gdc.cancer.gov/repository>
 2. Download tumor annotations (.csv files): <https://zenodo.org/records/5320076>
@@ -41,3 +42,5 @@
 7. Extract features: extract_deep_features.py, extract_morphologic_features.py
 8. Slide-level feature aggregation: feature_aggregation.py
 9. Get AS(Aneuploidy Score), WGD(Whole Genome Doubling) labels: get_label.py
+10. Data split for 5-fold cross validation: 5_fold_split.py
+11. Train model: MLP.py
