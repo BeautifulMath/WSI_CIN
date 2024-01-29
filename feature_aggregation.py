@@ -23,7 +23,7 @@ for j in range(len(backbones)):
 
     features = ['Barcode'] + list(map(lambda x: x+'_mean', feature_df.columns)) + list(map(lambda x: x+'_sd', feature_df.columns))
     slide_level_feature_df = pd.DataFrame(slide_level_feature, columns = features) 
-    slide_level_feature_df.to_csv(os.path.join(slide_level_feature_dir,'CRC_nuc_'+ backbones[j] +'.csv'), index=False)
+    slide_level_feature_df.to_csv(os.path.join(slide_level_feature_dir,'CRC_nucleus_'+ backbones[j] +'.csv'), index=False)
 
 # tile_feature
 backbones = os.listdir(tile_feature_dir)
