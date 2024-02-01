@@ -10,7 +10,7 @@
 │   ...
 │   └── TCGA-WS-AB45-01Z-00-DX1
 ├── nucleus
-│   ├── TCGA-A6-A56B-01Z-00-DX1
+│   ├── TCGA-3L-AA1B-01Z-00-DX2
 │   ├── TCGA-4N-A93T-01Z-00-DX1
 │   ...
 │   └── TCGA-WS-AB45-01Z-00-DX1
