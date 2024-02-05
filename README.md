@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/BeautifulMath/WSI_CIN/blob/main/Image/Figure1.png?raw=true)
 
-**Data**
+**Data**  
 We provide the slide-level nuclear morphological features for 315 TCGA-CRC slides, which can be found in the [data](https://github.com/BeautifulMath/WSI_CIN/tree/main/data) folder under the file name *CRC_nucleus_morphology.csv*.
 
 **Code**
