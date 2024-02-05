@@ -5,7 +5,7 @@ import pandas as pd, numpy as np
 import scipy.stats
 
 activities = pd.read_excel('Supplementary Tables 15-22.xlsx', sheet_name='ST_18_TCGA_Activities_raw') 
-morp_feat = pd.read_csv('CRC_nucleus_morphology.csv') 
+morp_feat = pd.read_csv('./slide_level_features/CRC_nucleus_morphology.csv') 
 
 # Find intersection of patients in two files
 
