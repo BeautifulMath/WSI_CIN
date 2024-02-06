@@ -19,6 +19,7 @@ We provide the slide-level nuclear morphological features for 315 TCGA-CRC slide
 10. Data split for 5-fold cross validation: *5_fold_split.py*
 11. Train model: *MLP.py*
 12. Calculate the correlation between nuclear morphology features and copy number signatures: *signature_morphology_correlation.py*
+13. Extract the feature importances from random forest classifier: *random_forest.ipynb*
 
 **Folder Structures**
 ```bash
