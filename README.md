@@ -21,6 +21,13 @@ We provide the slide-level nuclear morphological features for 315 TCGA-CRC slide
 12. Calculate the correlation between nuclear morphology features and copy number signatures: *signature_morphology_correlation.py*
 13. Extract the feature importances from random forest classifier: *random_forest.ipynb*
 
+**Hover-Net nuclei segmentation results for tiles of 3 WSIs**
+
+[Hover-Net outputs](http://naver.me/IgDGZjtN)
+
+AS prediction scores were predicted at the tile-level by feeding individual tile features into trained MLP models.
+Patches were categorized based on a tile-level AS prediction score difference of 0.1 units.
+
 **Folder Structures**
 ```bash
 ├── tile
