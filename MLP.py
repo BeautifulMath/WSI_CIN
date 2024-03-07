@@ -161,7 +161,7 @@ def evaluate_model(test_dl, model, beta=1.0):
     
     metrics = {
         'accuracy': accuracy_score(actuals, preds),
-        'AU_ROC': roc_auc_score(actuals, preds),
+        'AU_ROC': roc_auc_score(actuals, scores),
         'f1_score': f1_score(actuals, preds),
         'average_precision_score': average_precision_score(actuals, preds),
         'f_beta': ((1+beta**2) * precision_score(actuals, preds) * recall_score(actuals, preds)) / (beta**2 * precision_score(actuals, preds) + recall_score(actuals, preds)),
