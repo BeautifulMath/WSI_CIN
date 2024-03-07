@@ -28,6 +28,9 @@ We provide the slide-level nuclear morphological features for 315 TCGA-CRC slide
 AS prediction scores were predicted at the tile-level by feeding individual tile features into trained MLP models.
 Patches were categorized based on a tile-level AS prediction score difference of 0.1 units.
 
+(red labels are neoplastic cells, blue labels are connective tissue cells, green labels are inflammatory cells, orange labels are
+non-neoplastic cells, and yellow labels are necrotic cells.)
+
 **Folder Structures**
 ```bash
 ├── tile
